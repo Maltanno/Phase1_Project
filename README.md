@@ -60,10 +60,14 @@ Making a Fantasy-Adventure movie due to those genres' consistent Popularity
 ## Question 2
 
 ### Data Used
-imdb.principles -to find people who work together
-imdb.basics -merge by tconst(the film code); to find the primary title
-tn.movie_budgets -join by title; use budget and wwgross to find RoI
-imdb.names -join by name code (nconst) to find names
+imdb.principles -to find people who work together  
+
+imdb.basics -merge by tconst(the film code); to find the primary title  
+
+tn.movie_budgets -join by title; use budget and wwgross to find RoI  
+
+imdb.names -join by name code (nconst) to find names  
+
 
 ### Data Engineering
 - Join datasets together, calculate RoI
@@ -80,8 +84,9 @@ imdb.names -join by name code (nconst) to find names
 
 ### Recommendation
 Pairs or, as found, trios who make the highest RoI are:
-- Steven Schneider, Oren Peli, Jason Blum;
-- Michael Bay, Andrew Form, Brad Fuller;
+- Steven Schneider, Oren Peli, Jason Blum
+- Michael Bay, Andrew Form, Brad Fuller   
+
 Or for something more family friendly
 - Janet Healy & Christopher Meledandri
 
